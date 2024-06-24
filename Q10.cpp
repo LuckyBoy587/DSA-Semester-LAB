@@ -16,4 +16,13 @@ int main(){
         cin >> roll;
         cin >> s.name >> s.gender;
     }
+
+    int target;
+    cin >> target;
+
+    if (m.find(target) == m.end()) {
+        cout << "Student with roll number " << target << " found.";
+    } else {
+        cout << "Student with roll number " << target << " not found.";
+    }
 }
