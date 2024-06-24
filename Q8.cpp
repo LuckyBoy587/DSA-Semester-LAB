@@ -9,7 +9,7 @@ int main(){
         int pick, drop;
         cin >> pick >> drop;
         if (drop <= pick) {
-            cout << "Invalid input! Drop-off time must be greater than pick-up time for request " << i + 1;
+            cout << "Invalid input! Drop-off time must be greater than pick-up time for request " << i;
             return 0;
         }
     }
